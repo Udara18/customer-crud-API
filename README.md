@@ -33,53 +33,35 @@ This project is a **Basic CRUD API** built with **Node.js**, providing essential
    git clone https://github.com/yourusername/app.git
    cd app
 
-Install Dependencies:
+2. **Install Dependencies:**
 
 Run the following command to install all necessary packages:
 
-bash
+```bash
 Copy code
 npm install
-Set Up Environment Variables:
+```
+
+3. **Set Up Environment Variables:**
 
 Create a .env file in the root directory and add the required environment variables (see Configuration below).
 
 Run the API:
 
-Start the server by running:
+4. **Start the server by running:**
 
-bash
+```bash
 Copy code
 npm start
+```
+
 The server will be accessible at http://localhost:3000 by default.
 
-Usage
-Create a User: Send a POST request to /users with user data.
-Read Users: Send a GET request to /users to retrieve all users or /users/:id for a specific user.
-Update a User: Send a PUT request to /users/:id to update a user.
-Delete a User: Send a DELETE request to /users/:id to delete a user.
-Example Requests
-Create User (POST):
 
-bash
-Copy code
-POST /users
-Content-Type: application/json
-{
-"username": "exampleUser",
-"email": "user@example.com",
-"password": "password123"
-}
-Get All Users (GET):
+## Configuration
+- The application uses environment variables for configuration. Set up a .env file in the root directory of the project with the following variables:
 
-bash
-Copy code
-GET /users
-Configuration
-The application uses environment variables for configuration. Set up a .env file in the root directory of the project with the following variables:
-
-bash
-Copy code
+```bash
 PORT=3000
 MONGO_URI=mongodb://localhost:27017/yourdbname
 JWT_SECRET=your_jwt_secret
@@ -94,8 +76,10 @@ MONGO_URI: MongoDB connection string.
 JWT_SECRET: Secret key for JWT token generation.
 GOOGLE_CLIENT_ID & GOOGLE_CLIENT_SECRET: Credentials for Google OAuth authentication.
 EMAIL_HOST, EMAIL_PORT, EMAIL_USER, EMAIL_PASS: Email service configuration for sending emails using Nodemailer.
-Dependencies
-This project uses the following Node.js modules:
+```
+
+## Dependencies
+- This project uses the following Node.js modules:
 
 bcrypt: Password hashing for user security.
 body-parser: Middleware to parse incoming request bodies.
@@ -108,8 +92,7 @@ nodemailer: Email sending utility.
 passport: Authentication middleware.
 passport-google-oauth2: Google OAuth 2.0 strategy for Passport.
 passport-google-oauth20: Alternative OAuth 2.0 strategy for Passport.
-License
-This project is licensed under the ISC License.
 
-Contributors
-Udara (Author)
+
+## Contributors
+- Udara (Author)
