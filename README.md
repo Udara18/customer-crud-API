@@ -9,10 +9,8 @@ This project is a **Basic CRUD API** built with **Node.js**, providing essential
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Configuration](#configuration)
 - [Dependencies](#dependencies)
-- [License](#license)
 - [Contributors](#contributors)
 
 ## Features
