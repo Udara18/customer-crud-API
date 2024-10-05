@@ -1,0 +1,13 @@
+SERVER_PORT = 3000
+SECRET = **************************
+
+EMAIL_HOST = ************
+EMAIL_PORT = ************
+EMAIL_USER = *************
+EMAiL_PASSWORD = *************
+
+
+CLIENT_ID = ********************
+CLIENT_SECRET = **********************
+
+SESSION_SECRET = *******************
